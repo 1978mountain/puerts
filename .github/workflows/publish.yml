@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download artifact
-        uses: dawidd6/action-download-artifact@v2
+        uses: dawidd6/action-download-artifact@v6
         with:
           workflow: build_v8.yml
           name: v8_bin
@@ -46,7 +46,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download artifact
-        uses: dawidd6/action-download-artifact@v2
+        uses: dawidd6/action-download-artifact@v6
         with:
           workflow: build_quickjs.yml
           #run_id: ${{env.RUNID}}
@@ -76,7 +76,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download artifact
-        uses: dawidd6/action-download-artifact@v2
+        uses: dawidd6/action-download-artifact@v6
         with:
           workflow: build_v8.yml
           name: v8_bin
@@ -98,7 +98,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download artifact
-        uses: dawidd6/action-download-artifact@v2
+        uses: dawidd6/action-download-artifact@v6
         with:
           workflow: build_quickjs.yml
           #run_id: ${{env.RUNID}}
@@ -121,7 +121,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download artifact
-        uses: dawidd6/action-download-artifact@v2
+        uses: dawidd6/action-download-artifact@v6
         with:
           workflow: build_v8.yml
           name: v8_bin
@@ -143,7 +143,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download artifact
-        uses: dawidd6/action-download-artifact@v2
+        uses: dawidd6/action-download-artifact@v6
         with:
           workflow: build_quickjs.yml
           #run_id: ${{env.RUNID}}
@@ -166,7 +166,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download artifact
-        uses: dawidd6/action-download-artifact@v2
+        uses: dawidd6/action-download-artifact@v6
         with:
           workflow: build_v8.yml
           name: v8_bin
@@ -187,7 +187,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download artifact
-        uses: dawidd6/action-download-artifact@v2
+        uses: dawidd6/action-download-artifact@v6
         with:
           workflow: build_quickjs.yml
           #run_id: ${{env.RUNID}}
